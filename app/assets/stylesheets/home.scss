@@ -5,6 +5,7 @@
 
 html {
   font: 'Alegreya Sans SC', sans-serif;
+  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   line-height: 1.7;
   letter-spacing: 1px;
 }
@@ -94,4 +95,15 @@ header {
  border-style: solid; border-color: #000;
  margin: 40px 40px;
 
+}
+
+//upload
+
+.upload-new h1{
+font-size: 35px;
+}
+
+
+.upload-select p{
+   margin-bottom: 0px;
 }
