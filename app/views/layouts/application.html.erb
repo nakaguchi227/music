@@ -10,6 +10,23 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+          <div class="header-logo">
+            <%= link_to("MusicApp", "/") %>
+          </div>
+          <ul style="list-style-type: none" class="header-menus">
+            <li>
+              <%= link_to("ログイン", "#") %>
+            </li>
+            <li>
+              <%= link_to("新規登録", "#") %>
+            </li>
+
+          </ul>
+        </header>
+<br>
+          <%= yield %>
+
+
   </body>
 </html>
